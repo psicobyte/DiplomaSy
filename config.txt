@@ -1,0 +1,13 @@
+# Config file for print 
+
+# coordinates x,y for locate text
+COORDINATES=260,200.300,200
+
+# Name of the output PDF
+OutputPDF=output.pdf
+
+# Name of the input PDF
+InputPDF=input.pdf
+
+# Name of the csv data file
+DataFile=data.csv
