@@ -26,7 +26,9 @@ while (<CONFIG>) {
 		if (s/^COORDINATES=//){@Coords= split /[\.\,]/;}
 		if (s/^OutputPDF=//){$OutputPDF= $_;}		
 		if (s/^InputPDF=//){$InputPDF= $_;}
-		if (s/^DataFile=//){$DataFile= $_;}	
+		if (s/^DataFile=//){$DataFile= $_;}
+		if (s/^FontSize=//){$FontSize= $_;}
+		if (s/^Font=//){$Font= $_;}
 	}    
 }
 close CONFIG;

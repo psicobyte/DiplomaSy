@@ -11,3 +11,6 @@ InputPDF=input.pdf
 
 # Name of the csv data file
 DataFile=data.csv
+
+FontSize=40
+Font=Times-Bold
