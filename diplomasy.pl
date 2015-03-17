@@ -66,6 +66,7 @@ while (<DATA>) {
 	prMbox(@plantilla); 
 	$i=0;
 	foreach (@Cell){
+        utf8::decode($Cell[$i]);
 		prText($Coords[$i*2], $Coords[($i*2)+1], $Cell[$i], 'left', 90);
 		$i++;
 	}
