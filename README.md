@@ -3,6 +3,7 @@
 Script para crear diplomas a partir de los datos contenidos en un archivo CSV y una plantilla PDF.
 
 
+
 ##Opciones de configuración:
 
 Se asignan en el archivo config.txt
@@ -23,14 +24,14 @@ Nombre del archivo resultante. Se trata de un archivo PDF con tantas páginas co
 
 Si el archivo ya existe, se sobreescribirá.
 
-Valor por defecto: "output.pdf"
+Valor por defecto: "diplomas.pdf"
 
 
 ###InputPDF
 
 Archivo PDF con la plantilla para el diploma.
 
-Valor por defecto: "diploma.pdf"
+Valor por defecto: "model.pdf"
 
 
 ###Orientation
@@ -69,14 +70,14 @@ Archivo CSV con los datos que se usarán para rellenar los diplomas.
 
 El conenido de cada campo será ubicado en las coordenadas asignadas con `COORDINATES`, en el mismo orden.
 
-Valor por defecto: data.csv
+Valor por defecto: people.csv
 
 
 ###FontSize
 
 Tamaó (en puntos) de la tipografía usada para escribir los datos en el diploma.
 
-Valor por defecto: 30
+Valor por defecto: 40
 
 
 ###Font
