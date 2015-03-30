@@ -92,4 +92,34 @@ Valor por defecto: 40
 
 Tipografía usada para escribir los datos en el diploma.
 
+Tipografías aceptadas:
+
+* Times-Roman
+* Times-Bold
+* Times-Italic
+* Times-BoldItalic
+* Courier
+* Courier-Bold
+* Courier-Oblique
+* Courier-BoldOblique
+* Helvetica
+* Helvetica-Bold
+* Helvetica-Oblique
+* Helvetica-BoldOblique
+
+Opcionalmente, se pueden uar los respectivos nombres abreviados:
+
+* TR
+* TB
+* TI
+* TBI
+* C
+* CB
+* CO
+* CBO
+* H
+* HB
+* HO
+* HBO
+
 Valor por defecto: Times-Bold
