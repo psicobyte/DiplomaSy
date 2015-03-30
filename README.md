@@ -27,6 +27,8 @@ Coordenadas del documento (en puntos) donde se imprimirá el contenido de los ca
 
 Consta de pares de coordenadas horizontal y vertical separadas por comas. Si hay más de uno, cada par de coordenadas se separa del siguiente por un punto.
 
+Independientemente de la orientación del papel (ver más abajo), la posicion se mide siempre desde la esquina inferior izquierda, incrementándose las X a la derecha y las Y hacia arriba.
+
 
 ###OutputPDF
 
