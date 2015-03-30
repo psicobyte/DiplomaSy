@@ -1,6 +1,11 @@
 #DiplomaSy
 
+
+##Descripción
+
 Script para crear diplomas a partir de los datos contenidos en un archivo CSV y una plantilla PDF.
+
+En base a la configuración contenida en el archivo `config.txt`, toma los datos de un archivo CSV (`people.csv`, por defecto) y usa un archivo PDF como plantilla (`model.pdf`, por defecto) para generar un PDF multipágina (`diplomas.pdf`, por defecto) con tantos diplomas como líneas de datos haya en el CSV.
 
 Todas las medidas se dan en puntos tipográficos (pt).
 
