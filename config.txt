@@ -14,3 +14,6 @@ DataFile=data.csv
 
 FontSize=40
 Font=Times-Bold
+
+# Orientation of the image: V = Vertical (Portrait), H = Horizontal (Landscape)
+Orientation=V

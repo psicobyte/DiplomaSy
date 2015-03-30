@@ -24,7 +24,7 @@ my $OutputPDF= 'diplomas.pdf';
 my $DataFile= 'people.csv';
 my $Font= 'Times-Bold';
 my $FontSize= 40;
-
+my $Orientation= V;
 
 
 
@@ -44,9 +44,17 @@ while (<CONFIG>) {
 		if (s/^DataFile=//){$DataFile= $_;}
 		if (s/^FontSize=//){$FontSize= $_;}
 		if (s/^Font=//){$Font= $_;}
+        if (s/^Orientation=//){$Orientation= $_;}
 	}    
 }
 close CONFIG;
+
+if (uc $Orientation eq "V"){
+    $Rotate= 90;
+}
+if (uc $Orientation eq "H"){
+    $Rotate= 0;
+}
 
 prFile($OutputPDF) || die "No he podido abrir fichero $InputPDF\n";
 
@@ -67,7 +75,7 @@ while (<DATA>) {
 	$i=0;
 	foreach (@Cell){
         utf8::decode($Cell[$i]);
-		prText($Coords[$i*2], $Coords[($i*2)+1], $Cell[$i], 'left', 90);
+		prText($Coords[$i*2], $Coords[($i*2)+1], $Cell[$i], 'left', $Rotate);
 		$i++;
 	}
 	prPage();
