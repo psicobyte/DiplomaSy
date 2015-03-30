@@ -1,19 +1,19 @@
 # Config file for print 
 
 # coordinates x,y for locate text
-COORDINATES=260,200.300,200
+COORDINATES=185,354.225,322
 
 # Name of the output PDF
-OutputPDF=output.pdf
+OutputPDF=diplomas.pdf
 
 # Name of the input PDF
-InputPDF=input.pdf
+InputPDF=model_sample.pdf
 
 # Name of the csv data file
 DataFile=data.csv
 
-FontSize=40
+FontSize=30
 Font=Times-Bold
 
 # Orientation of the image: V = Vertical (Portrait), H = Horizontal (Landscape)
-Orientation=V
+Orientation=H
