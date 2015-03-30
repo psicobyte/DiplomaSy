@@ -2,6 +2,9 @@
 
 Script para crear diplomas a partir de los datos contenidos en un archivo CSV y una plantilla PDF.
 
+Todas las medidas se dan en puntos tipográficos (pt).
+
+Se adjunta el archivo reference.pdf como referencia de medidas y posiciones.
 
 
 ##Opciones de configuración:
