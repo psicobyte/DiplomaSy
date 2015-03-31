@@ -48,32 +48,25 @@ Valor por defecto: "model.pdf"
 
 ###Orientation
 
-La orientación del diploma. 
+La orientación del Texto. Puede ser "H" o "V"
 
-Si es H se asumirá que el diploma está orientado horizontalmente, y el texto se colocará de ese modo.
+Si es H el texto se orientará horizontalmente.
 
 ```
- ___________
-|           |
-|     H     |
-|___________|
-
 Texto -->
 
 ```
 
-Si es V se asumirá que el diploma está orientado verticalmente, y el texto se colocará de ese modo (de abajo a arriba).
+Si es V el texto se orientará verticalmente, de abajo hacia arriba.
 
 ```
- _______
-|       |
-|       |   ^
-|   V   |   |
-|       |   |
-|_______| Texto
+   ^
+   |
+   |
+ Texto
 ```
 
-Valor por defecto: V
+Valor por defecto: H
 
 
 ###DataFile
@@ -87,7 +80,7 @@ Valor por defecto: people.csv
 
 ###FontSize
 
-Tamaó (en puntos) de la tipografía usada para escribir los datos en el diploma.
+Tamaño (en puntos) de la tipografía usada para escribir los datos en el diploma.
 
 Valor por defecto: 40
 

@@ -24,7 +24,7 @@ my $OutputPDF= 'diplomas.pdf';
 my $DataFile= 'people.csv';
 my $Font= 'Times-Bold';
 my $FontSize= 40;
-my $Orientation= V;
+my $Orientation= H;
 
 
 
